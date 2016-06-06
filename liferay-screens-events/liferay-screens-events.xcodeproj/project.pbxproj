@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E80C324BDA604F90CCC13D6 /* Pods_liferay_screens_events.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF41EBF19232C32902ECEB /* Pods_liferay_screens_events.framework */; };
+		DA4C26241D05D6FA004E9337 /* liferay-server-context.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA4C26231D05D6FA004E9337 /* liferay-server-context.plist */; };
+		DAA34D8C1D05CCBB00916956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA34D8B1D05CCBB00916956 /* AppDelegate.swift */; };
+		DAA34D8E1D05CCBB00916956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA34D8D1D05CCBB00916956 /* ViewController.swift */; };
+		DAA34D911D05CCBB00916956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA34D8F1D05CCBB00916956 /* Main.storyboard */; };
+		DAA34D931D05CCBB00916956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA34D921D05CCBB00916956 /* Assets.xcassets */; };
+		DAA34D961D05CCBB00916956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA34D941D05CCBB00916956 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88BDAD27A1193B6E260B3D19 /* Pods-liferay-screens-events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-screens-events.release.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-screens-events/Pods-liferay-screens-events.release.xcconfig"; sourceTree = "<group>"; };
+		D4BF41EBF19232C32902ECEB /* Pods_liferay_screens_events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liferay_screens_events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F565432F6E6F8AD1503C98 /* Pods-liferay-screens-events.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-screens-events.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-screens-events/Pods-liferay-screens-events.debug.xcconfig"; sourceTree = "<group>"; };
+		DA4C26231D05D6FA004E9337 /* liferay-server-context.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "liferay-server-context.plist"; sourceTree = "<group>"; };
+		DAA34D881D05CCBB00916956 /* liferay-screens-events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "liferay-screens-events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA34D8B1D05CCBB00916956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAA34D8D1D05CCBB00916956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAA34D901D05CCBB00916956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAA34D921D05CCBB00916956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA34D951D05CCBB00916956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAA34D971D05CCBB00916956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAA34D851D05CCBB00916956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E80C324BDA604F90CCC13D6 /* Pods_liferay_screens_events.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6F4E13431FF37CD3FE4566 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9F565432F6E6F8AD1503C98 /* Pods-liferay-screens-events.debug.xcconfig */,
+				88BDAD27A1193B6E260B3D19 /* Pods-liferay-screens-events.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5198515EE7E990B06D21ADBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4BF41EBF19232C32902ECEB /* Pods_liferay_screens_events.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAA34D7F1D05CCBB00916956 = {
+			isa = PBXGroup;
+			children = (
+				DAA34D8A1D05CCBB00916956 /* liferay-screens-events */,
+				DAA34D891D05CCBB00916956 /* Products */,
+				2A6F4E13431FF37CD3FE4566 /* Pods */,
+				5198515EE7E990B06D21ADBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA34D891D05CCBB00916956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA34D881D05CCBB00916956 /* liferay-screens-events.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAA34D8A1D05CCBB00916956 /* liferay-screens-events */ = {
+			isa = PBXGroup;
+			children = (
+				DAA34D8B1D05CCBB00916956 /* AppDelegate.swift */,
+				DAA34D8D1D05CCBB00916956 /* ViewController.swift */,
+				DAA34D8F1D05CCBB00916956 /* Main.storyboard */,
+				DAA34D921D05CCBB00916956 /* Assets.xcassets */,
+				DAA34D941D05CCBB00916956 /* LaunchScreen.storyboard */,
+				DAA34D971D05CCBB00916956 /* Info.plist */,
+				DA4C26231D05D6FA004E9337 /* liferay-server-context.plist */,
+			);
+			path = "liferay-screens-events";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAA34D871D05CCBB00916956 /* liferay-screens-events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA34D9A1D05CCBB00916956 /* Build configuration list for PBXNativeTarget "liferay-screens-events" */;
+			buildPhases = (
+				2E36A6D6FCFC16EF94F708EC /* [CP] Check Pods Manifest.lock */,
+				DAA34D841D05CCBB00916956 /* Sources */,
+				DAA34D851D05CCBB00916956 /* Frameworks */,
+				DAA34D861D05CCBB00916956 /* Resources */,
+				47694B7A2FD95F3C553155A6 /* [CP] Embed Pods Frameworks */,
+				59997463C95C79570CDA4595 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "liferay-screens-events";
+			productName = "liferay-screens-events";
+			productReference = DAA34D881D05CCBB00916956 /* liferay-screens-events.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAA34D801D05CCBB00916956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Allen Ziegenfus";
+				TargetAttributes = {
+					DAA34D871D05CCBB00916956 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DAA34D831D05CCBB00916956 /* Build configuration list for PBXProject "liferay-screens-events" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAA34D7F1D05CCBB00916956;
+			productRefGroup = DAA34D891D05CCBB00916956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAA34D871D05CCBB00916956 /* liferay-screens-events */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA34D861D05CCBB00916956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA34D961D05CCBB00916956 /* LaunchScreen.storyboard in Resources */,
+				DA4C26241D05D6FA004E9337 /* liferay-server-context.plist in Resources */,
+				DAA34D931D05CCBB00916956 /* Assets.xcassets in Resources */,
+				DAA34D911D05CCBB00916956 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E36A6D6FCFC16EF94F708EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47694B7A2FD95F3C553155A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liferay-screens-events/Pods-liferay-screens-events-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59997463C95C79570CDA4595 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liferay-screens-events/Pods-liferay-screens-events-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAA34D841D05CCBB00916956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA34D8E1D05CCBB00916956 /* ViewController.swift in Sources */,
+				DAA34D8C1D05CCBB00916956 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAA34D8F1D05CCBB00916956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA34D901D05CCBB00916956 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAA34D941D05CCBB00916956 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA34D951D05CCBB00916956 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAA34D981D05CCBB00916956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAA34D991D05CCBB00916956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA34D9B1D05CCBB00916956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F565432F6E6F8AD1503C98 /* Pods-liferay-screens-events.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "liferay-screens-events/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liferay.liferay-screens-events";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAA34D9C1D05CCBB00916956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BDAD27A1193B6E260B3D19 /* Pods-liferay-screens-events.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "liferay-screens-events/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liferay.liferay-screens-events";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA34D831D05CCBB00916956 /* Build configuration list for PBXProject "liferay-screens-events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA34D981D05CCBB00916956 /* Debug */,
+				DAA34D991D05CCBB00916956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA34D9A1D05CCBB00916956 /* Build configuration list for PBXNativeTarget "liferay-screens-events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA34D9B1D05CCBB00916956 /* Debug */,
+				DAA34D9C1D05CCBB00916956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA34D801D05CCBB00916956 /* Project object */;
+}
