@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E80C324BDA604F90CCC13D6 /* Pods_liferay_screens_events.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF41EBF19232C32902ECEB /* Pods_liferay_screens_events.framework */; };
+		DA2F51131D0713C000180F53 /* DDLListViewCell_events.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F51121D0713C000180F53 /* DDLListViewCell_events.swift */; };
+		DA3170A41D071A6A00A9ABB1 /* DDLListViewCell_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA3170A31D071A6A00A9ABB1 /* DDLListViewCell_events.xib */; };
 		DA4352751D06CBA1007E84D2 /* DDLListView_events.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4352741D06CBA1007E84D2 /* DDLListView_events.swift */; };
 		DA4352771D06CC50007E84D2 /* DDLListView_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4352761D06CC50007E84D2 /* DDLListView_events.xib */; };
 		DA4C26241D05D6FA004E9337 /* liferay-server-context.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA4C26231D05D6FA004E9337 /* liferay-server-context.plist */; };
@@ -22,6 +24,8 @@
 		88BDAD27A1193B6E260B3D19 /* Pods-liferay-screens-events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-screens-events.release.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-screens-events/Pods-liferay-screens-events.release.xcconfig"; sourceTree = "<group>"; };
 		D4BF41EBF19232C32902ECEB /* Pods_liferay_screens_events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liferay_screens_events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F565432F6E6F8AD1503C98 /* Pods-liferay-screens-events.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-screens-events.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-screens-events/Pods-liferay-screens-events.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2F51121D0713C000180F53 /* DDLListViewCell_events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDLListViewCell_events.swift; sourceTree = "<group>"; };
+		DA3170A31D071A6A00A9ABB1 /* DDLListViewCell_events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDLListViewCell_events.xib; sourceTree = "<group>"; };
 		DA4352741D06CBA1007E84D2 /* DDLListView_events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDLListView_events.swift; sourceTree = "<group>"; };
 		DA4352761D06CC50007E84D2 /* DDLListView_events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDLListView_events.xib; sourceTree = "<group>"; };
 		DA4C26231D05D6FA004E9337 /* liferay-server-context.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "liferay-server-context.plist"; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 			children = (
 				DA4352741D06CBA1007E84D2 /* DDLListView_events.swift */,
 				DA4352761D06CC50007E84D2 /* DDLListView_events.xib */,
+				DA2F51121D0713C000180F53 /* DDLListViewCell_events.swift */,
+				DA3170A31D071A6A00A9ABB1 /* DDLListViewCell_events.xib */,
 			);
 			name = DDL;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 				DAA34D961D05CCBB00916956 /* LaunchScreen.storyboard in Resources */,
 				DA4C26241D05D6FA004E9337 /* liferay-server-context.plist in Resources */,
 				DAA34D931D05CCBB00916956 /* Assets.xcassets in Resources */,
+				DA3170A41D071A6A00A9ABB1 /* DDLListViewCell_events.xib in Resources */,
 				DAA34D911D05CCBB00916956 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +246,7 @@
 			files = (
 				DA4352751D06CBA1007E84D2 /* DDLListView_events.swift in Sources */,
 				DAA34D8E1D05CCBB00916956 /* ViewController.swift in Sources */,
+				DA2F51131D0713C000180F53 /* DDLListViewCell_events.swift in Sources */,
 				DAA34D8C1D05CCBB00916956 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
