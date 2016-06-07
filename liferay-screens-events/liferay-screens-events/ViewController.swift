@@ -25,6 +25,12 @@ class ViewController: UIViewController, LoginScreenletDelegate{
                     onLoginResponseUserAttributes attributes: [String:AnyObject]) {
         print("login done \(attributes)")
         
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("ddlView") as UIViewController
+        self.presentViewController(nextViewController, animated:true, completion:nil)
+        
+        
     }
     
      func screenlet(screenlet: BaseScreenlet,

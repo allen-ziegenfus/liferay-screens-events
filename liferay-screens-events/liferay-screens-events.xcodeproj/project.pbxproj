@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E80C324BDA604F90CCC13D6 /* Pods_liferay_screens_events.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF41EBF19232C32902ECEB /* Pods_liferay_screens_events.framework */; };
+		DA4352751D06CBA1007E84D2 /* DDLListView_events.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4352741D06CBA1007E84D2 /* DDLListView_events.swift */; };
+		DA4352771D06CC50007E84D2 /* DDLListView_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4352761D06CC50007E84D2 /* DDLListView_events.xib */; };
 		DA4C26241D05D6FA004E9337 /* liferay-server-context.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA4C26231D05D6FA004E9337 /* liferay-server-context.plist */; };
 		DAA34D8C1D05CCBB00916956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA34D8B1D05CCBB00916956 /* AppDelegate.swift */; };
 		DAA34D8E1D05CCBB00916956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA34D8D1D05CCBB00916956 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 		88BDAD27A1193B6E260B3D19 /* Pods-liferay-screens-events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-screens-events.release.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-screens-events/Pods-liferay-screens-events.release.xcconfig"; sourceTree = "<group>"; };
 		D4BF41EBF19232C32902ECEB /* Pods_liferay_screens_events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liferay_screens_events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F565432F6E6F8AD1503C98 /* Pods-liferay-screens-events.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-screens-events.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-screens-events/Pods-liferay-screens-events.debug.xcconfig"; sourceTree = "<group>"; };
+		DA4352741D06CBA1007E84D2 /* DDLListView_events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDLListView_events.swift; sourceTree = "<group>"; };
+		DA4352761D06CC50007E84D2 /* DDLListView_events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDLListView_events.xib; sourceTree = "<group>"; };
 		DA4C26231D05D6FA004E9337 /* liferay-server-context.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "liferay-server-context.plist"; sourceTree = "<group>"; };
 		DAA34D881D05CCBB00916956 /* liferay-screens-events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "liferay-screens-events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA34D8B1D05CCBB00916956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA4352721D06CB5C007E84D2 /* EventsTheme */ = {
+			isa = PBXGroup;
+			children = (
+				DA4352731D06CB68007E84D2 /* DDL */,
+			);
+			name = EventsTheme;
+			sourceTree = "<group>";
+		};
+		DA4352731D06CB68007E84D2 /* DDL */ = {
+			isa = PBXGroup;
+			children = (
+				DA4352741D06CBA1007E84D2 /* DDLListView_events.swift */,
+				DA4352761D06CC50007E84D2 /* DDLListView_events.xib */,
+			);
+			name = DDL;
+			sourceTree = "<group>";
+		};
 		DAA34D7F1D05CCBB00916956 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +101,7 @@
 		DAA34D8A1D05CCBB00916956 /* liferay-screens-events */ = {
 			isa = PBXGroup;
 			children = (
+				DA4352721D06CB5C007E84D2 /* EventsTheme */,
 				DAA34D8B1D05CCBB00916956 /* AppDelegate.swift */,
 				DAA34D8D1D05CCBB00916956 /* ViewController.swift */,
 				DAA34D8F1D05CCBB00916956 /* Main.storyboard */,
@@ -152,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4352771D06CC50007E84D2 /* DDLListView_events.xib in Resources */,
 				DAA34D961D05CCBB00916956 /* LaunchScreen.storyboard in Resources */,
 				DA4C26241D05D6FA004E9337 /* liferay-server-context.plist in Resources */,
 				DAA34D931D05CCBB00916956 /* Assets.xcassets in Resources */,
@@ -214,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4352751D06CBA1007E84D2 /* DDLListView_events.swift in Sources */,
 				DAA34D8E1D05CCBB00916956 /* ViewController.swift in Sources */,
 				DAA34D8C1D05CCBB00916956 /* AppDelegate.swift in Sources */,
 			);

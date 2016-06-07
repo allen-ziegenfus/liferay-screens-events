@@ -29,5 +29,33 @@
             </objects>
             <point key="canvasLocation" x="162" y="349"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="mF3-Jp-rOf">
+            <objects>
+                <viewController storyboardIdentifier="ddlView" id="PEA-K8-Wr7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XGd-Pp-cGY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Zw0-i3-Uro" customClass="DDLListScreenlet" customModule="LiferayScreens">
+                                <rect key="frame" x="24" y="0.0" width="273" height="562"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="recordSetId">
+                                        <integer key="value" value="539052"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelFields" value="title,location_label,logo"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="themeName" value="events"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y8w-Ii-k6L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="525" y="226"/>
+        </scene>
     </scenes>
 </document>
