@@ -20,6 +20,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bXw-ZT-Fna" customClass="LoginScreenlet" customModule="LiferayScreens">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="offlinePolicy" value="remote-first"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -57,8 +60,9 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="recordSetId">
                                         <integer key="value" value="539052"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="labelFields" value="title,location_label,logo"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelFields" value="title,location_label"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="themeName" value="events"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="offlinePolicy" value="remote-first"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>

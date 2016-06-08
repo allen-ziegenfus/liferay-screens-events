@@ -12,11 +12,11 @@
             <rect key="frame" x="0.0" y="0.0" width="398" height="193"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pv2-qN-HvR" id="BDT-oh-6CU">
-                <rect key="frame" x="0.0" y="0.0" width="398" height="193"/>
+                <rect key="frame" x="0.0" y="0.0" width="398" height="192.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uzs-du-Nrz">
-                        <rect key="frame" x="0.0" y="0.0" width="399" height="207"/>
+                        <rect key="frame" x="0.0" y="0.0" width="399" height="206.5"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nn-GW-VKd">
                         <rect key="frame" x="8" y="118" width="365" height="66"/>

@@ -34,6 +34,7 @@ public class DDLListViewCell_events: UITableViewCell {
     
     public var record: DDLRecord? {
         didSet {
+              
             if let titleField = record?.fieldBy(name: "title") {
                 title.text = titleField.currentValueAsString
             }
@@ -71,7 +72,7 @@ public class DDLListViewCell_events: UITableViewCell {
                     
                     let group = (jsonObject["groupId"] as AnyObject? as? String) ?? ""
                     let uuid = (jsonObject["uuid"] as AnyObject? as? String) ?? ""
-                    let version = (jsonObject["version"] as AnyObject? as? String) ?? ""
+                    //let version = (jsonObject["version"] as AnyObject? as? String) ?? ""
                     
                     let url = "https://mdata.liferay.com/documents/" + group + "/" + uuid
                     //let imageName = "lpsf-2015-default.jpg"
