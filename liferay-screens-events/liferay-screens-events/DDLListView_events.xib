@@ -33,7 +33,7 @@
                 <constraint firstAttribute="trailing" secondItem="Tf4-qY-N02" secondAttribute="trailing" id="QxB-wt-Iga"/>
             </constraints>
             <connections>
-                <outlet property="tableView" destination="Tf4-qY-N02" id="Eez-Bm-WcM"/>
+                <outlet property="tableView" destination="Tf4-qY-N02" id="QYy-yp-5yV"/>
             </connections>
         </view>
     </objects>

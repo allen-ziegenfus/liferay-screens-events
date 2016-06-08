@@ -12,11 +12,11 @@
             <rect key="frame" x="0.0" y="0.0" width="398" height="193"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pv2-qN-HvR" id="BDT-oh-6CU">
-                <rect key="frame" x="0.0" y="0.0" width="398" height="192.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="398" height="193"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uzs-du-Nrz">
-                        <rect key="frame" x="0.0" y="0.0" width="399" height="206.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="399" height="207"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nn-GW-VKd">
                         <rect key="frame" x="8" y="118" width="365" height="66"/>
@@ -46,6 +46,8 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="imgBack" destination="Uzs-du-Nrz" id="RfZ-wI-jAS"/>
+                <outlet property="imgBackBottomConstraint" destination="ReY-BH-SL9" id="xp1-oV-d7Q"/>
+                <outlet property="imgBackTopConstraint" destination="AWy-Ur-y1H" id="5jT-6H-V05"/>
                 <outlet property="location" destination="3nn-GW-VKd" id="eOP-RO-zpD"/>
                 <outlet property="title" destination="C01-Mi-wbD" id="3Hq-SF-Q4E"/>
             </connections>

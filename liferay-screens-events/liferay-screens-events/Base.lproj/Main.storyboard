@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -25,10 +24,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="bXw-ZT-Fna" secondAttribute="trailing" id="7Y4-Fy-sEO"/>
-                            <constraint firstItem="bXw-ZT-Fna" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="7fh-BW-cvC"/>
-                            <constraint firstItem="bXw-ZT-Fna" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MCQ-8m-zng"/>
-                            <constraint firstItem="1XN-ud-gbP" firstAttribute="top" secondItem="bXw-ZT-Fna" secondAttribute="bottom" id="gtQ-ug-rvB"/>
+                            <constraint firstItem="1XN-ud-gbP" firstAttribute="top" secondItem="bXw-ZT-Fna" secondAttribute="bottom" id="DMz-R5-JEv"/>
+                            <constraint firstAttribute="trailing" secondItem="bXw-ZT-Fna" secondAttribute="trailing" id="JBz-Xe-og5"/>
+                            <constraint firstItem="bXw-ZT-Fna" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RPF-aw-8jh"/>
+                            <constraint firstItem="bXw-ZT-Fna" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Zi5-PR-A1w"/>
                         </constraints>
                     </view>
                     <connections>
@@ -39,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="162" y="348.99999999999994"/>
         </scene>
-        <!--View Controller-->
+        <!--List Controller-->
         <scene sceneID="mF3-Jp-rOf">
             <objects>
-                <viewController storyboardIdentifier="ddlView" id="PEA-K8-Wr7" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ddlView" id="PEA-K8-Wr7" customClass="DDLListController" customModule="liferay_screens_events" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pmj-BH-xwN"/>
                         <viewControllerLayoutGuide type="bottom" id="kXc-x3-rvP"/>
@@ -71,10 +70,13 @@
                             <constraint firstAttribute="trailing" secondItem="Zw0-i3-Uro" secondAttribute="trailing" id="xCH-vb-Pbi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ddllist" destination="Zw0-i3-Uro" id="EFu-as-r1k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8w-Ii-k6L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524.79999999999995" y="225.30666666666667"/>
+            <point key="canvasLocation" x="523" y="348"/>
         </scene>
     </scenes>
 </document>

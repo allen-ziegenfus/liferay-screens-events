@@ -14,7 +14,9 @@ import LiferayScreens
 public class DDLListViewCell_events: UITableViewCell {
     
    
+    @IBOutlet weak var imgBackTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var imgBack: UIImageView!
+    @IBOutlet weak var imgBackBottomConstraint: NSLayoutConstraint!
 
     
     @IBOutlet weak var location: UILabel!
@@ -84,6 +86,22 @@ public class DDLListViewCell_events: UITableViewCell {
             }
 
         }
+    }
+    
+    override public func awakeFromNib() {
+        self.clipsToBounds = true
+        self.imgBackBottomConstraint.constant -= 2 * imageParallaxFactor
+        self.imgBackTopInitial = self.imgBackTopConstraint.constant
+        self.imgBackBottomInitial = self.imgBackBottomConstraint.constant
+    }
+    
+
+    
+    func setBackgroundOffset(offset:CGFloat) {
+        var boundOffset = max(0, min(1, offset))
+        var pixelOffset = (1-boundOffset)*2*imageParallaxFactor
+        self.imgBackTopConstraint.constant = self.imgBackTopInitial - pixelOffset
+        self.imgBackBottomConstraint.constant = self.imgBackBottomInitial + pixelOffset
     }
 
 }

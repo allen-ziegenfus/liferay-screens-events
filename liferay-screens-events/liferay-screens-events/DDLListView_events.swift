@@ -37,9 +37,23 @@ public class DDLListView_events: BaseListTableView, DDLListViewModel {
     
 
 
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
         
         
-        
+        for indexPath in self.tableView!.indexPathsForVisibleRows! as [NSIndexPath] {
+            self.setCellImageOffset(self.tableView!.cellForRowAtIndexPath(indexPath) as! DDLListViewCell_events, indexPath: indexPath)
+        }
+    }
+    func setCellImageOffset(cell: DDLListViewCell_events, indexPath: NSIndexPath) {
+        var cellFrame = self.tableView!.rectForRowAtIndexPath(indexPath)
+        var cellFrameInTable = self.tableView!.convertRect(cellFrame, toView:self.tableView!.superview)
+        var cellOffset = cellFrameInTable.origin.y + cellFrameInTable.size.height
+        var tableHeight = self.tableView!.bounds.size.height + cellFrameInTable.size.height
+        var cellOffsetFactor = cellOffset / tableHeight
+        cell.setBackgroundOffset(cellOffsetFactor)
+    }
+    
 
     
     
