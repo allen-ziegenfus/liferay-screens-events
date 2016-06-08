@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="liferay_screens_events" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QL9-nU-IXl"/>
+                        <viewControllerLayoutGuide type="bottom" id="1XN-ud-gbP"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="bXw-ZT-Fna" customClass="LoginScreenlet" customModule="LiferayScreens">
-                                <rect key="frame" x="37" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bXw-ZT-Fna" customClass="LoginScreenlet" customModule="LiferayScreens">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="bXw-ZT-Fna" secondAttribute="trailing" id="7Y4-Fy-sEO"/>
+                            <constraint firstItem="bXw-ZT-Fna" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="7fh-BW-cvC"/>
+                            <constraint firstItem="bXw-ZT-Fna" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MCQ-8m-zng"/>
+                            <constraint firstItem="1XN-ud-gbP" firstAttribute="top" secondItem="bXw-ZT-Fna" secondAttribute="bottom" id="gtQ-ug-rvB"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="login" destination="bXw-ZT-Fna" id="l5x-Ve-xPG"/>
@@ -27,19 +37,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="349"/>
+            <point key="canvasLocation" x="162" y="348.99999999999994"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mF3-Jp-rOf">
             <objects>
                 <viewController storyboardIdentifier="ddlView" id="PEA-K8-Wr7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pmj-BH-xwN"/>
+                        <viewControllerLayoutGuide type="bottom" id="kXc-x3-rvP"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XGd-Pp-cGY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="Zw0-i3-Uro" customClass="DDLListScreenlet" customModule="LiferayScreens">
-                                <rect key="frame" x="24" y="0.0" width="273" height="562"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zw0-i3-Uro" customClass="DDLListScreenlet" customModule="LiferayScreens">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="recordSetId">
@@ -51,11 +64,17 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zw0-i3-Uro" firstAttribute="leading" secondItem="XGd-Pp-cGY" secondAttribute="leading" id="GSI-bg-XbN"/>
+                            <constraint firstItem="Zw0-i3-Uro" firstAttribute="top" secondItem="XGd-Pp-cGY" secondAttribute="top" id="dOe-gJ-VLm"/>
+                            <constraint firstItem="kXc-x3-rvP" firstAttribute="top" secondItem="Zw0-i3-Uro" secondAttribute="bottom" id="x8w-Va-S2q"/>
+                            <constraint firstAttribute="trailing" secondItem="Zw0-i3-Uro" secondAttribute="trailing" id="xCH-vb-Pbi"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8w-Ii-k6L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="525" y="226"/>
+            <point key="canvasLocation" x="524.79999999999995" y="225.30666666666667"/>
         </scene>
     </scenes>
 </document>

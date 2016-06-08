@@ -11,8 +11,8 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="none" sectionIndexMinimumDisplayRowCount="1" rowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tf4-qY-N02">
-                    <rect key="frame" x="-16" y="15" width="667" height="577"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" sectionIndexMinimumDisplayRowCount="1" rowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tf4-qY-N02">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="separatorColor" red="0.086217619478702545" green="0.013222359120845795" blue="0.97759968042373657" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <inset key="separatorInset" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -26,6 +26,12 @@
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Tf4-qY-N02" secondAttribute="bottom" id="A7y-4c-4iL"/>
+                <constraint firstItem="Tf4-qY-N02" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AHH-g9-rLX"/>
+                <constraint firstItem="Tf4-qY-N02" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Juq-28-UYw"/>
+                <constraint firstAttribute="trailing" secondItem="Tf4-qY-N02" secondAttribute="trailing" id="QxB-wt-Iga"/>
+            </constraints>
             <connections>
                 <outlet property="tableView" destination="Tf4-qY-N02" id="Eez-Bm-WcM"/>
             </connections>
